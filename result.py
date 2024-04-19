@@ -7,6 +7,7 @@ import plotly.graph_objs as go
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Initialize DataFrame
 df = pd.read_csv("new_tracker.csv")
