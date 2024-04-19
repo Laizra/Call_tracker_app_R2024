@@ -1,0 +1,22 @@
+.mt-3 {
+    width: 150px;
+    height: 50px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin: 5px 1rem 0px auto;
+}
+
+.mt-3:hover {
+    background-color: white;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.column-dropdowns {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.drop-columns {
+    min-width: 8rem;
+}
