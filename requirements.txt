@@ -1,0 +1,6 @@
+dash==2.16.1
+dash_ag_grid==31.0.1
+dash_bootstrap_components==1.6.0
+dash_table==5.0.0
+pandas==2.2.2
+plotly==5.20.0
