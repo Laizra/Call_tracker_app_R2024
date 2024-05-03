@@ -1,5 +1,0 @@
-host = 'host'
-database = 'database'
-user = 'user'
-password = 'password'
-port = 'port'
