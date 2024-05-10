@@ -1,4 +1,5 @@
 """ import dash, pandas, and psycopg2 """
+import os
 import psycopg2
 import dash
 import dash_ag_grid as dag
