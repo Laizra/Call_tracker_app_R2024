@@ -19,11 +19,11 @@ deleted_row_ids_store = dcc.Store(id='deleted-row-ids-store', storage_type='memo
 
 def connect_to_db():
     conn_params = {
-        'host': HOST,
-        'database': DATABASE,
-        'user': USER,
-        'password': PASSWORD,
-        'port': PORT,
+        'host': os.getenv('HOST'),
+        'database': os.getenv('DATABASE'),
+        'user': os.getenv('USER'),
+        'password': os.getenv('PASSWORD'),
+        'port': os.getenv('PORT'),
     }
 
     conn = psycopg2.connect(**conn_params)
