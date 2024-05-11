@@ -2,14 +2,14 @@
     position: relative;
 }
 
-.mt-3 {
+.button-styles {
     width: 150px;
     height: 50px;
     border: 1px gray solid;
     border-radius: 5px;
 }
 
-.mt-3:hover {
+.button-styles:hover {
     background-color: white;
     border: 1px black solid;
     cursor: pointer;
