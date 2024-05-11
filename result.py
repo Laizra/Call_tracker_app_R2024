@@ -97,7 +97,7 @@ columnDefs = [
     {"field": "submit_date", "headerName": "Submit date"},
     {"field": "good_time_for_3min_talk", "headerName": "Good time to talk"},
     {"field": "job", "headerName": "Job status"},
-    {"field": "submission_id", "headerName": "Submission ID", "editable":True},
+    {"field": "submission_id", "headerName": "Submission ID"},
 ]
 
 # Define layout
