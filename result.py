@@ -24,7 +24,7 @@ def connect_to_db():
         'database': os.getenv('DATABASE'),
         'user': os.getenv('USER'),
         'password': os.getenv('PASSWORD'),
-        'port': os.getenv('PORT'),
+        'port': os.getenv('DB_PORT'),
     }
 
     conn = psycopg2.connect(**conn_params)
